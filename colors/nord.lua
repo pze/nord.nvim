@@ -1,1 +1,1 @@
-require("lua.nord.init").load()
+require("nord.init").load()
