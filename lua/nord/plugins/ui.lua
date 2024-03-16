@@ -123,6 +123,25 @@ function ui.highlights()
     IlluminatedWordText = { fg = c.none, bg = c.polar_night.brightest },
     IlluminatedWordRead = { fg = c.none, bg = c.polar_night.brightest },
     IlluminatedWordWrite = { fg = c.none, bg = c.polar_night.brightest },
+
+    -- mini.nvim
+    MiniCursorword = {
+      italic = true,
+      bold = true,
+      bg = "NONE",
+      fg = "NONE",
+    },
+    MiniCursorwordCurrent = {
+      underline = false,
+      bold = false,
+      bg = "NONE",
+      fg = "NONE",
+    },
+    MiniIndentscopeSymbol = {
+      fg = c.polar_night.brighter,
+      bg = "NONE",
+      bold = false,
+    },
   }
 end
 
