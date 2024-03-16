@@ -36,7 +36,7 @@ function nord.load(opts)
     require("nord.plugins.neogit").highlights()
   )
 
-  vim.g.colors_name = "zenburn"
+  vim.g.colors_name = "nord"
 end
 
 nord.setup = config.setup

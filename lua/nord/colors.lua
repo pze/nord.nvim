@@ -2,11 +2,11 @@ local colors = {}
 
 local defaults = {
   polar_night = {
-    origin = "#3f3f3f", -- nord0
-    bright = "#484848", -- nord1
-    brighter = "#4f4f4f", -- nord2
-    brightest = "#5b605e", -- nord3
-    light = "#5d6262", -- out of palette
+    origin = "#0f160f", -- nord0
+    bright = "#243029", -- nord1
+    brighter = "#2F3D36", -- nord2
+    brightest = "#394A42", -- nord3
+    light = "#637D75", -- out of palette
   },
   snow_storm = {
     origin = "#dcdccc", -- nord4
@@ -30,7 +30,7 @@ local defaults = {
 }
 
 colors.palette = defaults
-colors.default_bg = "#3f3f3f" -- nord0
+colors.default_bg = "#0f1606" -- nord0
 
 function colors.daltonize(severity)
   local daltonize = require("nord.utils.colorblind").daltonize
