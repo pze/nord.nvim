@@ -7,6 +7,7 @@ local defaults = {
   search = { theme = "vim" }, -- [vim|vscode]
   borders = true,
   errors = { mode = "bg" }, -- [bg|fg|none]
+  palette_name = "default",
   -- Value is any valid attr-list value for `:help nvim_set_hl`
   styles = {
     comments = { italic = true },

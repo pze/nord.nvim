@@ -8,6 +8,9 @@ function nord.load(opts)
     require("nord.config").extend(opts)
   end
 
+  local palette_name = opts.palette_name or "default"
+  require("nord.colors").set_palette(require("nord.palette." .. palette_name))
+
   if config.options.colorblind.enable then
     require("nord.colors").daltonize(config.options.colorblind.severity)
   end
